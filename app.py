@@ -17,7 +17,7 @@ app.secret_key = "supersecretkey"  # For sessions and flash messages
 # -----------------------------
 # Configuration and Initialization
 # -----------------------------
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAs_dxHDyjheb1PExzwzMKu6jdo16S7Ew0"
+os.environ["GOOGLE_API_KEY"] = ""
 llm = GoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.7)
 
 # -----------------------------
